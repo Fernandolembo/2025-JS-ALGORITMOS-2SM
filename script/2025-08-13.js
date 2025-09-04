@@ -1,3 +1,5 @@
+//Primeira atividade da prof Aline com 7 exercícios.
+
 //1
 console.log("Bom dia, Mundo");
 
