@@ -26,7 +26,7 @@ if (hora>=6 && hora<12){
 
 var dia="segunda";
 
-if (dia=="sábado"|| dia=="domingo"){
+if (dia==="sábado"|| dia==="domingo"){
     console.log("Fim de semana")
 }else{
     console.log("Dia útil");
