@@ -23,4 +23,18 @@ console.log(nome[4]);
 
 let numeros = [10, 20, 30, 40, 50];
 
-console.log("Quantidade de elementos:", numeros.length)
+console.log("Quantidade de elementos:",numeros.length)
+
+
+// function
+
+function  podeVotar(idade){
+    if(idade>=18){
+        console.log("Você pode votar.");
+    } else{
+        console.log("Você não pode votar.");
+    }
+
+}
+podeVotar(15);
+

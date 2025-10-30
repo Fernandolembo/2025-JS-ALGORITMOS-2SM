@@ -1,0 +1,9 @@
+
+function CalculaNota(n1, n2, n3){
+    let media = (n1+ n2+ n3) /3;
+    if (media>=6)
+        console.log ("Aprovado");
+    else (media<=5);     
+        console.log ("Reprovado");   
+
+CalculaNota(6, 7, 8)
