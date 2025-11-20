@@ -1,0 +1,57 @@
+//1 
+
+function cofreDoPirata(ouroTotal, gasto) {
+  let restante = ouroTotal - gasto;
+  console.log(`Ouro restante: ${restante} moedas`);
+
+  if (restante >= 100) {
+    console.log("🏴 BarbaCurta pode fugir com o tesouro!");
+  } else {
+    console.log(" BarbaCurta não tem ouro suficiente para fugir!");
+  }
+}
+
+
+//2
+
+function poderMagico(pedra) {
+  let cubo = pedra ** 3;
+  console.log(`✨ O poder mágico da pedra é: ${cubo}`);
+}
+
+//3
+
+function testeVampiro(numeroCasa) {
+  let raiz = Math.sqrt(numeroCasa);
+
+  if (Number.isInteger(raiz)) {
+    console.log(` Raiz exata (${raiz}) → O vampiro pode entrar! `);
+  } else {
+    console.log(` Raiz não é exata (${raiz.toFixed(2)}) → O vampiro NÃO pode entrar!`);
+  }
+}
+
+//4
+
+function treinoHeroi(dias) {
+  let forca = 0;
+  for (let i = 1; i <= dias; i++) {
+    forca += 5;
+    console.log(`Dia ${i}: força total = ${forca}`);
+  }
+  console.log(`Após ${dias} dias de treino, o herói tem ${forca} pontos de força!`);
+}
+
+//5
+
+function descerTorre() {
+  let andar = 10;
+  while (andar >= 0) {
+    if (andar === 0) {
+      console.log("👸 A princesa chegou ao térreo! 🏰");
+    } else {
+      console.log(`A princesa está descendo... agora no ${andar}º andar`);
+    }
+    andar--;
+  }
+}
